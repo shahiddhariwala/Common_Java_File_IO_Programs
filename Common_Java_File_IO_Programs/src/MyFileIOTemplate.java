@@ -23,10 +23,10 @@ public class MyFileIOTemplate
 		BufferedReader br = new BufferedReader(new FileReader(input));
 		// Writing to file
 		BufferedWriter bw = new BufferedWriter(new FileWriter(output));
-		for (int i = 0; i < 10; i++)
+		String in;
+		while ((in = br.readLine()) != null)
 		{
-			String num = br.readLine();
-			bw.write("from input file " + num + "\n");
+			bw.write("#" + in + "\n");
 		}
 		br.close();
 		bw.close();
