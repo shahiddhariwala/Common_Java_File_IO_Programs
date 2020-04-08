@@ -1,3 +1,8 @@
+/*
+Code by  : Shahid Dhariwala
+LinkedIn : https://www.linkedin.com/in/shahiddhariwala/
+Twitter  : https://twitter.com/shahiddhariwala
+*/
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
